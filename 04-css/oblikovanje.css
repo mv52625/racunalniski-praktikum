@@ -25,10 +25,52 @@ a { text-decoration: none; outline:none; }
 a:link { color:#cc0000; }
 a:visited { color:#660066; }
 a:hover { color:#660066; }
-a:active { color:#990000; outline:none; }
+a:active { color:#7c0505; outline:none; }
 
 code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: #009966;
 }
 
+h1 {
+    color: #330066;
+}
+
+h2 {
+    margin-top: 2em;
+    border-top: 1px #AAAAAA solid;
+    padding-top: 0.5em;
+}
+
+#uvod {
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+}
+
+.slika {
+    border: red solid 1px;
+    font-size: 0.9em;
+    width: 40%;
+    text-align: left;
+    float: right;
+    margin-left: 2em;
+}
+
+.slika img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.slika p{
+    margin-bottom: 0;
+}
+
+.slika p:last-child {
+    font-size: 0.8em;
+    margin-top: 0;
+}
+
+a::before {
+    content: "❤️";
+}
